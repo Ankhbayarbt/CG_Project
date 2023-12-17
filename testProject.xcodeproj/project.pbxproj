@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1A371D0B2B2AA99B00903C7E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D0A2B2AA99B00903C7E /* main.cpp */; };
+		1A371D132B2AA9AA00903C7E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A371D122B2AA9AA00903C7E /* OpenGL.framework */; };
+		1A371D152B2AA9AF00903C7E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A371D142B2AA9AF00903C7E /* GLUT.framework */; };
+		1A371D3A2B2AB28600903C7E /* table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D2D2B2AB28500903C7E /* table.cpp */; };
+		1A371D3B2B2AB28600903C7E /* shelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D2E2B2AB28500903C7E /* shelf.cpp */; };
+		1A371D3C2B2AB28600903C7E /* cupboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D302B2AB28500903C7E /* cupboard.cpp */; };
+		1A371D3D2B2AB28600903C7E /* fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D322B2AB28500903C7E /* fan.cpp */; };
+		1A371D3E2B2AB28600903C7E /* chair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D352B2AB28500903C7E /* chair.cpp */; };
+		1A371D3F2B2AB28600903C7E /* snowman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D362B2AB28500903C7E /* snowman.cpp */; };
+		1A371D402B2AB28600903C7E /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A371D392B2AB28600903C7E /* window.cpp */; };
+		1AFCABC82B2DC0C0000A10EA /* bed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCABC62B2DC0C0000A10EA /* bed.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,24 @@
 /* Begin PBXFileReference section */
 		1A371D072B2AA99B00903C7E /* testProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A371D0A2B2AA99B00903C7E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1A371D122B2AA9AA00903C7E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1A371D142B2AA9AF00903C7E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		1A371D2C2B2AB28500903C7E /* shelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shelf.h; path = ../../../../.Trash/shelf.h; sourceTree = "<group>"; };
+		1A371D2D2B2AB28500903C7E /* table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table.cpp; path = ../../../../.Trash/table.cpp; sourceTree = "<group>"; };
+		1A371D2E2B2AB28500903C7E /* shelf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shelf.cpp; path = ../../../../.Trash/shelf.cpp; sourceTree = "<group>"; };
+		1A371D2F2B2AB28500903C7E /* chair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chair.h; path = ../../../../.Trash/chair.h; sourceTree = "<group>"; };
+		1A371D302B2AB28500903C7E /* cupboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cupboard.cpp; path = ../../../../.Trash/cupboard.cpp; sourceTree = "<group>"; };
+		1A371D312B2AB28500903C7E /* cupboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cupboard.h; path = ../../../../.Trash/cupboard.h; sourceTree = "<group>"; };
+		1A371D322B2AB28500903C7E /* fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fan.cpp; path = ../../../../.Trash/fan.cpp; sourceTree = "<group>"; };
+		1A371D332B2AB28500903C7E /* fan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fan.h; path = ../../../../.Trash/fan.h; sourceTree = "<group>"; };
+		1A371D342B2AB28500903C7E /* window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = window.h; path = ../../../../.Trash/window.h; sourceTree = "<group>"; };
+		1A371D352B2AB28500903C7E /* chair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chair.cpp; path = ../../../../.Trash/chair.cpp; sourceTree = "<group>"; };
+		1A371D362B2AB28500903C7E /* snowman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = snowman.cpp; path = ../../../../.Trash/snowman.cpp; sourceTree = "<group>"; };
+		1A371D372B2AB28600903C7E /* snowman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = snowman.h; path = ../../../../.Trash/snowman.h; sourceTree = "<group>"; };
+		1A371D382B2AB28600903C7E /* table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = table.h; path = ../../../../.Trash/table.h; sourceTree = "<group>"; };
+		1A371D392B2AB28600903C7E /* window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = window.cpp; path = ../../../../.Trash/window.cpp; sourceTree = "<group>"; };
+		1AFCABC62B2DC0C0000A10EA /* bed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bed.cpp; sourceTree = "<group>"; };
+		1AFCABC92B2DC130000A10EA /* bed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bed.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A371D152B2AA9AF00903C7E /* GLUT.framework in Frameworks */,
+				1A371D132B2AA9AA00903C7E /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +71,25 @@
 		1A371CFE2B2AA99B00903C7E = {
 			isa = PBXGroup;
 			children = (
+				1AFCABC92B2DC130000A10EA /* bed.h */,
+				1AFCABC62B2DC0C0000A10EA /* bed.cpp */,
+				1A371D352B2AB28500903C7E /* chair.cpp */,
+				1A371D2F2B2AB28500903C7E /* chair.h */,
+				1A371D302B2AB28500903C7E /* cupboard.cpp */,
+				1A371D312B2AB28500903C7E /* cupboard.h */,
+				1A371D322B2AB28500903C7E /* fan.cpp */,
+				1A371D332B2AB28500903C7E /* fan.h */,
+				1A371D2E2B2AB28500903C7E /* shelf.cpp */,
+				1A371D2C2B2AB28500903C7E /* shelf.h */,
+				1A371D362B2AB28500903C7E /* snowman.cpp */,
+				1A371D372B2AB28600903C7E /* snowman.h */,
+				1A371D2D2B2AB28500903C7E /* table.cpp */,
+				1A371D382B2AB28600903C7E /* table.h */,
+				1A371D392B2AB28600903C7E /* window.cpp */,
+				1A371D342B2AB28500903C7E /* window.h */,
 				1A371D092B2AA99B00903C7E /* testProject */,
 				1A371D082B2AA99B00903C7E /* Products */,
+				1A371D112B2AA9AA00903C7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +107,15 @@
 				1A371D0A2B2AA99B00903C7E /* main.cpp */,
 			);
 			path = testProject;
+			sourceTree = "<group>";
+		};
+		1A371D112B2AA9AA00903C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A371D142B2AA9AF00903C7E /* GLUT.framework */,
+				1A371D122B2AA9AA00903C7E /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFCABC82B2DC0C0000A10EA /* bed.cpp in Sources */,
+				1A371D3A2B2AB28600903C7E /* table.cpp in Sources */,
+				1A371D3C2B2AB28600903C7E /* cupboard.cpp in Sources */,
+				1A371D3B2B2AB28600903C7E /* shelf.cpp in Sources */,
+				1A371D402B2AB28600903C7E /* window.cpp in Sources */,
+				1A371D3E2B2AB28600903C7E /* chair.cpp in Sources */,
+				1A371D3D2B2AB28600903C7E /* fan.cpp in Sources */,
 				1A371D0B2B2AA99B00903C7E /* main.cpp in Sources */,
+				1A371D3F2B2AB28600903C7E /* snowman.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

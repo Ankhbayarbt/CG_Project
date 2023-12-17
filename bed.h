@@ -1,13 +1,20 @@
-//
-//  bed.h
-//  testProject
-//
-//  Created by Ankhbayar on 2023.12.16.
-//
+#ifndef BED_H
+#define BED_H
 
-#ifndef bed_h
-#define bed_h
+//#include <GL/glut.h>
+//#include <GL/freeglut_ext.h>
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#else
+#include <GL/glut.h>
+#endif
 
-#include <stdio.h>
+class Bed{
 
-#endif /* bed_h */
+    public:
+        void drawBed();
+};
+
+
+
+#endif
